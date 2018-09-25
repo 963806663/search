@@ -1,0 +1,41 @@
+[{
+  "name": "技术部",
+  "children": [{
+    "name": "一组",
+    "children": [{
+      "name": "张三",
+      "post": "java"
+    }, {
+      "name": "小明",
+      "post": "php"
+    }]
+  }]
+}, {
+  "name": "财务部",
+  "children": [{
+    "name": "一组",
+    "children": [{
+      "name": "李四",
+      "post": "财务总监"
+    }]
+  }, {
+    "name": "二组",
+    "children": [{
+      "name": "王五",
+      "post": "出纳"
+    }]
+  }]
+}, {
+  "name": "市场部",
+  "children": [{
+    "name": "一组",
+    "children": [{
+      "name": "三级 3-1-1"
+    }]
+  }, {
+    "name": "二组",
+    "children": [{
+      "name": "三级 3-2-1"
+    }]
+  }]
+}]
