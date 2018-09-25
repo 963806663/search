@@ -82,14 +82,25 @@
         }
       },
 
+      //确定
       sure(){
-        let text = '';
-        if(this.list.length){
-          text = JSON.stringify(this.list);
-        }
-        this.$emit('child-say',false,text);
+        if(!this.list.length){
+          this.$alert('请先添加', '提示', {
+            confirmButtonText: '确定',
+            callback: action => {
 
+            }
+          });
+        } else{
+          let text = '';
+          if(this.list.length){
+            text = JSON.stringify(this.list);
+          }
+          this.$emit('child-say',false,text);
+        }
       },
+      
+      //取消
       cancel(){
         this.$emit('child-say',false);
       }
